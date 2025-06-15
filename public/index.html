@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R/Place</title>
+</head>
+<body>
+    <div class="container">
+      <div class="timeout">Pronto</div>
+      <div class="color-picker">
+          <input type="color" name="color" id="color-picker">
+      </div>
+      <div class="canvas-container">
+        <canvas id="place" width="1000" height="1000" style="border: 1px solid black;"></canvas>
+      </div>
+    </div>
+</body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="index.js" type="module"></script>
+</html>
